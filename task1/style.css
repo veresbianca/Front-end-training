@@ -1,0 +1,97 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #addba4;
+}
+
+.plant-content {
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+    top: 50%;
+
+
+
+}
+ .all-plants {
+    text-transform: uppercase;
+    font-size: 12px;
+     color: lightgray;
+ }
+
+.all-plants i {
+    font-size: 16px;
+    padding: 20px;
+}
+
+.fa-heart-o {
+     float: right;
+}
+
+.central-content {
+    border-top: 1px solid lightgrey;
+    overflow: hidden;
+}
+
+.flower-img {
+    float: left;
+    margin-left: -15px;
+    border-left: 1px solid gray;
+
+}
+
+.detail-img {
+    float:left;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.second-title{
+    text-transform: uppercase;
+    color: gray;
+    font-size: 20px;
+}
+
+.price {
+ font-size: 25px;
+}
+
+.about-flower {
+    color: gray;
+    margin-top: 20px;
+}
+
+.detail-img button{
+    background-color: #fff;
+}
+
+.second-btn {
+    padding: 6px 25px;
+}
+
+.btn-default {
+    border-radius: 0;
+    text-transform: uppercase;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.btn-default:focus {
+    outline: none !important;
+    background-color: #fff!important;
+    border: 1px solid #ccc!important;
+}
+
+.btn-default:hover {
+     background-color: #fff!important;
+}
+
+.first-btn {
+    margin-right: 10px;
+}
