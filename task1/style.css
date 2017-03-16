@@ -5,17 +5,15 @@
 body {
     background-color: #addba4;
 }
-
+/*START plant-content*/
 .plant-content {
     background-color: #fff;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 30px;
     position: relative;
     top: 50%;
-
-
-
+    transform: translateY(50%);
 }
  .all-plants {
     text-transform: uppercase;
@@ -31,17 +29,16 @@ body {
 .fa-heart-o {
      float: right;
 }
+/*END plant-content*/
 
+/*START central-content*/
 .central-content {
     border-top: 1px solid lightgrey;
     overflow: hidden;
 }
 
 .flower-img {
-    float: left;
-    margin-left: -15px;
-    border-left: 1px solid gray;
-
+    border-right: 1px solid lightgrey;
 }
 
 .detail-img {
@@ -95,3 +92,17 @@ body {
 .first-btn {
     margin-right: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .flower-img {
+        border-left: none;
+    }
+    img {
+        margin: 0 auto;
+        width: 200px;
+        height: 243px;
+        display: block;
+
+    }
+}
+/*END central-content*/
