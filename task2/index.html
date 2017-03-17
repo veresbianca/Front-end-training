@@ -8,6 +8,7 @@
 </head>
 <body>
 <div class="container"></div>
+
 <!--START form-content-->
     <div class="form-content ">
         <!--START form-header-->
@@ -21,17 +22,63 @@
             </div>
         </div>
         <!--END form-header-->
-       <div class="form-body col-10">
+
+        <!--START form-body-->
+        <div class="form-body col-10">
            <div class="first-info col-5">
                <p class="first">payment details</p>
-               <p><i class="fa fa-caret-up" aria-hidden="true"></i></p>
-
+               <div class="arrow-up"></div>
            </div>
           <div class="second-info col-5">
               <p class="second">billing info</p>
           </div>
-
        </div>
+
+        <!--START user-name-->
+        <div class="user-name col-10">
+            <div class="first-name col-5">
+                <input type="text" placeholder="First name" class="col-10"/>
+            </div>
+            <div class="last-name col-5">
+                <select class="col-2">
+                    <option value="M"> M </option>
+                    <option value="F"> F </option>
+                </select>
+                <input type="text" placeholder="Last name" class="col-8"/>
+            </div>
+        </div>
+        <!--END user-name-->
+
+         <!--START user-email-->
+        <div class="user-email col-10">
+            <input type="text" placeholder="Email address" class="col-10"/>
+        </div>
+        <!--END user-email-->
+
+        <!--START payment-->
+        <div class="payment col-10">
+            <input type="text" placeholder="What is this payment for?" class="col-10"/>
+        </div>
+        <!--END payment-->
+
+        <!--START cash-buttons-->
+        <div class="cash-buttons col-10">
+            <div class="total-price col-5">
+                <h1> $ price </h1>
+            </div>
+            <div class="price-button col-5">
+                <button></button>
+                <button></button>
+                <button></button></br>
+                <button></button>
+                <button></button>
+                <button></button><br>
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+        </div>
+        <!--END cash price-->
     </div>
 <!--END form-content-->
 
