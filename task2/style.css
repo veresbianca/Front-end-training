@@ -177,11 +177,55 @@ body {
                 }
                     .total-price h1 {
                         text-align: center;
+                        color: grey;
                     }
             .price-button  button {
-                padding: 28px 60px;
+                padding: 25px 60px;
+                background-color: white;
+                width: 33.33%;
+                float: left;
             }
+               button:focus {
+                   outline: none;
+               }
+           .second-column .center {
+               background-color: lightsalmon;
+            }
+         /*END cash-buttons*/
 
-         /*END cash-price*/
+        /*START form-footer*/
+            .form-footer {
+                 padding: 25px;
+            }
+                .form-footer input {
+                    float: left;
+                }
+                .form-footer p {
+                    display: inline;
+                }
+                    .form-footer p i {
+                        margin-left: 6px;
+                        font-size: 14px;
+                        color: grey;
+                    }
+                     .pay-now button {
+                     float: right;
+                     width: 155px;
+                     height: 44px;
+                     position: relative;
+                     top: 50%;
+                     transform: translateY(-26%);
+                     border-radius: 5px;
+                     border: none;
+                     background-color: green;
+                     color: #fff;
+                     font-size: 16px;
+                     font-weight: bold;
+                     text-transform: uppercase;
+                  }
+                    .pay-now button:focus {
+                    outline: none;
+                 }
+            /*END form-footer*/
 
     /*END form-content*/
