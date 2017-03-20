@@ -1,0 +1,120 @@
+body {
+    background-color: grey;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border-collapse: collapse;
+}
+
+/*START define col class*/
+.col-10  {
+    100%;
+}
+
+
+/*END define col class*/
+
+    /*START conatiner*/
+    .container {
+        width: 40%;
+        margin: 0 auto;
+        position: absolute;
+        top: 10%;
+        left: 25%;
+        transform: translateY(10%);
+        background-color: #fff;
+    }
+        /*START first-content*/
+        .first-content {
+            padding:0 60px 30px;
+        }
+            /*start content-one*/
+            .content-one{
+                border-bottom: 1px solid lightgrey;
+                padding-bottom: 20px;
+            }
+            .content-one h1 {
+                text-transform: uppercase;
+            }
+            .content-one h3 {
+                text-transform: capitalize;
+                color: red;
+            }
+            .content-one p {
+                display: inline;
+            }
+            .contend-one  span i {
+                color: grey;
+            }
+            .content-one span {
+                color: grey;
+            }
+                .span-right {
+                    float: right;
+                    padding-right: 60px;
+                    color: #000!important;
+                }
+            /*end content-one*/
+
+            /*start content-two*/
+            .content-two{
+                border-bottom: 1px solid lightgrey;
+                padding-bottom: 20px;
+            }
+
+            .content-two p {
+                display: inline;
+                text-transform: capitalize;
+                color: red;
+            }
+
+            .contend-two  span i {
+                color: grey;
+            }
+            .content-two span {
+                color: grey;
+            }
+            .span-right {
+                float: right;
+                padding-right: 60px;
+                color: #000!important;
+            }
+            /*end content-two*/
+
+            /*start content-three*/
+
+            /*end content-three*/
+            .content-three{
+                border-bottom: 1px solid lightgrey;
+                padding-bottom: 20px;
+            }
+
+            .content-three h3 {
+                text-transform: capitalize;
+                color: red;
+            }
+            .content-three p {
+                display: inline;
+            }
+            .contend-three  span i {
+                color: grey;
+            }
+            .content-three span {
+                color: grey;
+            }
+            .span-right {
+                float: right;
+                padding-right: 60px;
+                color: #000!important;
+            }
+
+            /*END first-content*/
+
+            /*START second-content*/
+         .second-content {
+            background-color: lightgray;
+        }
+            /*END secondd-content*/
+    /*END container*/
