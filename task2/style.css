@@ -175,25 +175,41 @@ body {
                 color: lightgrey;
             }
                 .total-price {
-                    padding: 50px;
+                    padding-top: 68px;
                     border-right: 1px solid lightgrey
                 }
                     .total-price h1 {
                         text-align: center;
                         color: grey;
                     }
-            .price-button  button {
-                padding: 25px 60px;
-                background-color: white;
-                width: 33.33%;
-                float: left;
+            .price-button {
+                height: 216px;
             }
+                .first-column {
+                     height: 33.3%;
+                 }
+
+                .second-column {
+                    height: 33.3%;
+                }
+                .third-column {
+                    height: 33.3%;
+                }
+
+                .price-button  button {
+                    height: 100%;
+                    background-color: white;
+                    width: 33.3%;
+                    float: left;
+                }
+
                button:focus {
                    outline: none;
                }
-           .second-column .center {
-               background-color: lightsalmon;
-            }
+
+               .second-column .center {
+                   background-color: lightsalmon;
+                }
          /*END cash-buttons*/
 
         /*START form-footer*/
