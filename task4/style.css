@@ -1,0 +1,156 @@
+ul {
+   padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+/*START CONTAINER*/
+.container {
+    padding: 20px;
+}
+
+    /*START ROW*/
+    .row {
+        margin-bottom: 30px;
+    }
+    .row h4 {
+        color: lightgrey;
+    }
+
+    .row span  {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    /*END ROW*/
+
+        /*START FIRST-CONTENT*/
+        .big-img img {
+            width: 100%;
+        }
+
+        .small-img {
+            margin-top: 25px;
+        }
+
+             .small-img  li {
+                 width: 31.5%;
+                 display: inline-block;
+            }
+
+                 .small-img img {
+                     width: 100%;
+                 }
+
+            li:not(:last-child) {
+                margin-right: 2%;
+            }
+        /*END FIRST CONTENT*/
+
+        /*START SECOND-CONTENT*/
+        .drop-down {
+            margin: 10px 0;
+        }
+            .drop-down p {
+                color: grey;
+                padding-bottom: 10px;
+            }
+
+            .drop-down select {
+                padding: 6px 70px;
+                border-radius: 5px;
+            }
+
+            .drop-down select:focus {
+                outline: none;
+            }
+
+            .shoe-container {
+                border-bottom: 1px solid lightgrey;
+                display: inline-block;
+                padding-bottom: 20px;
+            }
+
+            .shoe-container p{
+                color: grey;
+                padding-bottom: 10px;
+            }
+
+                .shoes-number li {
+                    float: left;
+                }
+
+                .shoes-number li:not(:last-child) {
+                    margin-right: 20px;
+                }
+
+                .shoes-number li button {
+                    background-color: #fff;
+                    border-radius: 5px;
+                    border: 1px solid lightgrey;
+                }
+
+                .shoes-number li button:focus{
+                    outline: none;
+                }
+
+                .shoes-number .add-background {
+                    background-color: grey!important;
+                    color: #fff;
+                }
+
+            .links {
+                padding-bottom: 60px;
+            }
+
+                .links li {
+                    padding-top: 20px;
+                    float: left;
+                }
+
+                    .links li a{
+                        color: grey;
+                        text-decoration: none;
+                        font-style: italic;
+                        font-size: 16px;
+                    }
+
+                .details {
+                    margin-bottom: 20px;
+                    overflow: hidden;
+                    border: 1px solid lightgrey;
+                    border-radius: 5px;
+                }
+
+                    .details .first-button {
+                        background-color: grey;
+                        color: #fff;
+                    }
+
+                    .details li {
+                        display: inline;
+                        margin-right: 0;
+                        padding: 0;
+                    }
+
+                        .details li button {
+                            background-color: #fff;
+                            padding: 8px 74px;
+                            border: none;
+                        }
+
+                        .details li button:focus {
+                            outline: none;
+                        }
+
+           .description {
+                display: block;
+                margin: 0 0 10px;
+                font-size: 15px;
+                font-weight: bold;
+                line-height: 2;
+                color: grey;
+                background-color: #fff;
+                border: none;
+            }
+           /*END SECOND-CONTENT*/
+
+/*END CONTAINER*/
