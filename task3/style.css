@@ -1,5 +1,8 @@
 body {
     background-color: grey;
+    margin: 0;
+    padding: 0;
+
 }
 
 * {
@@ -10,7 +13,7 @@ body {
 
 /*START define col class*/
 .col-10  {
-    100%;
+    width: 100%;
 }
 
 
@@ -18,15 +21,22 @@ body {
 
     /*START conatiner*/
     .container {
-        width: 40%;
-        margin: 0 auto;
-        position: absolute;
-        top: 10%;
-        left: 25%;
-        transform: translateY(10%);
-        background-color: #fff;
+        display: table-cell;
+        vertical-align: middle;
     }
+    .outer {
+        display: table;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+
         /*START first-content*/
+    .body-content {
+        background-color: #fff;
+        margin:0 auto;
+        width: 35%;
+    }
         .first-content {
             padding:0 60px 30px;
         }
@@ -45,7 +55,7 @@ body {
             .content-one p {
                 display: inline;
             }
-            .contend-one  span i {
+            .contend-one  .text-by  {
                 color: grey;
             }
             .content-one span {
@@ -64,18 +74,30 @@ body {
                 padding-bottom: 20px;
             }
 
-            .content-two p {
-                display: inline;
-                text-transform: capitalize;
+            .title-two {
+                font-weight: bold;
                 color: red;
+                text-transform: capitalize;
             }
 
-            .contend-two  span i {
-                color: grey;
+           .first-title {
+                margin-bottom: 0;
+                font-size: 18px;
             }
+
+           .second-title {
+                margin-top: 0;
+                font-size: 18px;
+            }
+
+            .last-text {
+                display: inline;
+            }
+
             .content-two span {
                 color: grey;
             }
+
             .span-right {
                 float: right;
                 padding-right: 60px;
@@ -87,23 +109,29 @@ body {
 
             /*end content-three*/
             .content-three{
-                border-bottom: 1px solid lightgrey;
                 padding-bottom: 20px;
             }
 
-            .content-three h3 {
+            .content-three .first-p {
                 text-transform: capitalize;
                 color: red;
+                font-weight: bold;
+                font-size: 18px;
             }
-            .content-three p {
+
+            .content-three .second-p {
                 display: inline;
+
             }
-            .contend-three  span i {
+
+            .contend-three  .text-by {
                 color: grey;
             }
+
             .content-three span {
                 color: grey;
             }
+
             .span-right {
                 float: right;
                 padding-right: 60px;
@@ -114,7 +142,56 @@ body {
 
             /*START second-content*/
          .second-content {
-            background-color: lightgray;
+             padding: 0 60px 30px;
+             background-color: lightgray;
         }
-            /*END secondd-content*/
+
+                .info-one {
+                    border-bottom: 1px solid grey;
+                    display: inline-block;
+                    width: 100%;
+                }
+                    .info-one h1 {
+                        text-transform: uppercase;
+                        color: grey;
+                        font-weight: bold;
+                        font-size: 30px;
+                        text-align: center;
+                    }
+
+                    .info-one .first-text {
+                        color: red;
+                        font-weight: bold;
+                        font-size: 18px;
+                        text-transform: capitalize;
+                    }
+
+                    .info-one .text-by {
+                        color: grey;
+                    }
+
+                    .span-right {
+                       float: right;
+                    }
+
+                    .second-text {
+                        display: inline-block;
+                        color: grey;
+                    }
+
+                    .second-text span{
+                        color: #000;
+
+                    }
+                    .text-by {
+                        font-style: italic!important;
+                        color: grey!important;
+                    }
+
+                    .capitalize {
+                        text-transform: capitalize;
+                    }
+
+
+/*END secondd-content*/
     /*END container*/
