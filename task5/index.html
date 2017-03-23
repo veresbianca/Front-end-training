@@ -2,9 +2,271 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>task5</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<!--start container-->
+<div class="container-fluid">
+    <div class="row">
+        <!--start header-->
+        <div class="header col-md-12">
+            <div class="nav-bar container">
+                <span class="title-logo">two.</span>
+
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">pages</a></li>
+                    <li><a href="#">shortcodes</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">portfoliu</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">shop</a></li>
+                    <li class="search-icon">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </li>
+                    <li class="shopping-cart">
+                         <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <span class="design-number">
+                       2
+                        </span>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="header-img col-md-12">
+                <div class="left-img">
+                    <img src="pictures/left-img.png" alt="left-img" class=first-img">
+                </div>
+
+                <div class="over-background">
+                    <p>detail style 1</p>
+                    <ul>
+                        <li><a href="#" class="add-color">home <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                        <li>
+                            <a href="#" class="add-color">detail <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="#">detail style 1</a></li>
+                    </ul>
+                </div>
+                <div class="right-img">
+                    <img src="pictures/right-img.png" alt="right-img" class="second-img">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--end header-->
+
+    <!--start body-content-->
+    <div class="container">
+        <div  class="row">
+            <div class=" body-content col-md-12">
+
+                <div class="content-left col-md-6">
+                    <div class="big-img col-md-12">
+                        <img src="pictures/center-img.png" alt="photo" class="col-md-12">
+                        <img src="pictures/img-4.jpg" alt="photo" class="next-photo col-md-12" id="id-img-4">
+                        <img src="pictures/img-3.jpg" alt="photo" class="next-photo col-md-12" id="id-img-3">
+                        <img src="pictures/img-5.jpg" alt="photo" class="next-photo col-md-12" id="id-img-5">
+                    </div>
+                    <div class="small-img col-md-12">
+                        <img src="pictures/center-img.png" alt="photo2" class="col-md-3 active center-img">
+                        <img src="pictures/img-4.jpg" alt="photo3" class="col-md-3 inactive" data-id ="id-img-4">
+                        <img src="pictures/img-3.jpg" alt="photo4" class="col-md-3 inactive" data-id ="id-img-3">
+                        <img src="pictures/img-5.jpg" alt="photo5" class="col-md-3 inactive" data-id ="id-img-5">
+                    </div>
+
+                </div>
+
+                <div class="content-right col-md-6">
+
+                    <div class="first-content-right">
+                        <div class="title-content-right">
+                            <h3>long dress with chain neckline</h3>
+                        </div>
+
+                        <div class="references-content-right">
+                            <!--<div class="rating">-->
+                                <!--<span class="active-star">☆</span>-->
+                                <!--<span class="active-star">☆</span>-->
+                                <!--<span class="active-star">☆</span>-->
+                                <!--<span class="active-star">☆</span>-->
+                                <!--<span>☆</span>-->
+                            <!--</div>-->
+                            <span class="starRating">
+                                <input id="rating5" type="radio" name="rating" value="5">
+                                <label for="rating5">5</label>
+                                <input id="rating4" type="radio" name="rating" value="4">
+                                <label for="rating4">4</label>
+                                <input id="rating3" type="radio" name="rating" value="3" checked="">
+                                <label for="rating3">3</label>
+                                <input id="rating2" type="radio" name="rating" value="2">
+                                <label for="rating2">2</label>
+                                <input id="rating1" type="radio" name="rating" value="1">
+                                <label for="rating1">1</label>
+                            </span>
+                            <span class="all-reviews">3 reviews</span>
+                            <span class="add-review">Add your review</span>
+                        </div>
+
+                        <div class="price-content-right">
+                            <span class="first-price"><strike>$34.00</strike></span>
+                            <span class="best-price">$26.00</span>
+                        </div>
+
+                        <div class="references-content-right">
+                            <p>references: 123456</p>
+                            <p>available: <span class="in-stock">instock</span></p>
+                        </div>
+
+                        <div class="info-content-right">
+                            <p>Fashion forms a key part of many of our important industries,
+                                especially those involving design.
+                            </p>
+                        </div>
+
+                    <div class="second-content-right">
+
+                        <div class="color-circle">
+                            <div class="chose-color">
+                                <span class="color">color</span>
+                            </div>
+                            <div class="circle">
+                                <span class="purple"></span>
+                                <span class="brown"></span>
+                                <span class="dark-blue"></span>
+                                <span class="blue"></span>
+                            </div>
+                        </div>
+
+                        <div class="size-buttons">
+                            <div class="sizes">
+                                <span>size:</span>
+                            </div>
+                            <div class="chose-size">
+                                <button>s</button>
+                                <button class="active-btn">m</button>
+                                <button>l</button>
+                                <button>xl</button>
+                            </div>
+
+                        </div>
+
+                        <div class="quantity">
+                            <div class="quantity-btn">
+                                <span>quantity</span>
+                            </div>
+                            <div class="chose-quantity">
+                                <button class="down-caret"> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                                <button class="chose-number">2</button>
+                                <button class="up-caret"><i class="fa fa-caret-up" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="add-to-cart">
+                            <button>add to cart</button>
+                            <span>add to wishlist</span>
+                            <span>add to compare</span>
+
+                        </div>
+
+                    </div>
+
+                        <div class="third-content-right">
+                            <div class="description">
+
+                                <div class="details-description">
+                                    <h3>description
+                                        <button>x</button>
+                                    </h3>
+                                    <p>Fashion forms a key part of many of our important industries,
+                                        especially those involving design, such as cars, computer printers and clothing.
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            soft-touch jersey
+
+                                         </li>
+                                        <li>
+                                            regular fit-true to size
+                                        </li>
+                                        <li>
+                                            machine wash
+                                        </li>
+                                        <li>
+                                            100% cotton
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="review-descrition">
+                                    <p>reviewspan
+                                        <span>
+                                             <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                        </span>
+                                    </p>
+
+                                </div>
+
+                                <div class="additional-info-descrition">
+                                    <p>additional info
+                                        <span>
+                                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                        </span>
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+                </div>
+
+                <div class="content-footer">
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--end body-content-->
+
+    <!--start footer-->
+    <div class="footer">
+        <div class="about-two">
+
+        </div>
+        <div class="account">
+
+        </div>
+        <div class="support">
+
+        </div>
+        <div class="newsletter">
+
+        </div>
+
+    </div>
+    <!-- end footer-->
+
+</div>
+<!--end container-fluid-->
+
 
 </body>
 </html>
