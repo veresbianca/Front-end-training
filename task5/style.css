@@ -125,10 +125,16 @@
     /*end header*/
 
     /*start body-content*/
+
+    .first-content-right h3 {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
     .body-content {
-        border-bottom: 1px solid grey;
         padding-bottom: 40px;
         padding-left: 0;
+        padding-right: 0;
     }
 
     .content-left, .content-right {
@@ -161,7 +167,7 @@
         padding-top: 25px;
     }
 
-    .color-circle,.quantity,.description{
+    .color-circle,.quantity,.description {
         padding-top: 25px;
     }
 
@@ -227,17 +233,17 @@
             padding-bottom: 20px
         }
 
-        .first-price {
-            color: grey;
-            font-size: 18px;
-            font-family: serif;
-    }
-        .best-price {
-            font-size: 28px;
-            font-weight: bold;
-            padding-left: 20px;
-            font-family: serif;
+            .first-price {
+                color: grey;
+                font-size: 18px;
+                font-family: serif;
         }
+            .best-price {
+                font-size: 28px;
+                font-weight: bold;
+                padding-left: 20px;
+                font-family: serif;
+            }
 
         .references-content-right p {
             text-transform: capitalize;
@@ -267,49 +273,52 @@
             font-weight: bold;
             padding-right: 90px;
         }
+
         .chose-color {
             display: inline;
             float: left;
         }
+
         .circle {
             display: inline;
             float: left;
         }
-        .purple {
-            background-color: mediumpurple;
-            border-radius: 50%;
-            padding-left: 15px;
-            padding-right: 15px;
-            padding-top: 15px;
-            margin-right: 15px;
-        }
 
-        .brown {
-            background-color: saddlebrown;
-            border-radius: 50%;
-            padding-left: 15px;
-            padding-right: 15px;
-            padding-top: 15px;
-            margin-right: 15px;
-        }
+            .purple {
+                background-color: mediumpurple;
+                border-radius: 50%;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                margin-right: 15px;
+            }
 
-        .dark-blue {
-            background-color: grey;
-            border-radius: 50%;
-            padding-left: 15px;
-            padding-right: 15px;
-            padding-top: 15px;
-            margin-right: 15px;
-        }
+            .brown {
+                background-color: saddlebrown;
+                border-radius: 50%;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                margin-right: 15px;
+            }
 
-        .blue {
-            background-color: cornflowerblue;
-            border-radius: 50%;
-            padding-left: 15px;
-            padding-right: 15px;
-            padding-top: 15px;
-            margin-right: 15px;
-        }
+            .dark-blue {
+                background-color: grey;
+                border-radius: 50%;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                margin-right: 15px;
+            }
+
+            .blue {
+                background-color: cornflowerblue;
+                border-radius: 50%;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                margin-right: 15px;
+            }
 
          .size-buttons {
              padding-top: 25px;
@@ -331,9 +340,9 @@
             margin-right: 5px;
         }
 
-        .chose-size button:focus {
-            outline: none;
-        }
+            .chose-size button:focus {
+                outline: none;
+            }
 
         .active-btn {
             border: 1px solid #000!important;
@@ -353,38 +362,293 @@
             padding-right: 90px;
          }
 
-        .down-caret {
-            background-color: beige;
-            border: 1px solid lightgrey;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .down-caret:focus {
-            outline: none;
+            .down-caret {
+                background-color: beige;
+                border: 1px solid lightgrey;
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+
+                .down-caret:focus {
+                    outline: none;
+                }
+
+            .up-caret {
+                background-color: beige;
+                border: 1px solid lightgrey;
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+
+                .up-caret:focus {
+                    outline: none;
+                }
+
+            .chose-number {
+                width: 75px;
+                background-color: #fff;
+                border: 1px solid lightgrey;
+            }
+
+                .chose-number:focus {
+                    outline: none;
+                }
+
+        .add-to-cart button {
+            padding: 13px 35px;
+            background-color: #000;
+            color: #fff;
+            text-transform: uppercase;
+            border: none;
         }
 
-        .up-caret {
-            background-color: beige;
-            border: 1px solid lightgrey;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
-        .up-caret:focus {
-            outline: none;
+            .add-to-cart button:focus {
+                outline: none;
+            }
+
+        .wish-list {
+            padding-left: 50px;
+            font-size: 16px;
+            color: grey;
         }
 
-        .chose-number {
-            width: 75px;
+        .add-to-compare {
+            padding: 29px;
+            color: grey;
+            font-size: 16px;
+        }
+
+        .description {
+            padding-top: 30px;
+        }
+
+            .elements-description {
+                padding: 30px;
+                background-color: beige;
+            }
+
+                .elements-description p, ul {
+                    color: grey;
+                }
+
+                .elements-description h3 {
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    font-weight: bold;
+                }
+
+                    .elements-description button {
+                        float: right;
+                        border: none;
+                        font-weight: bold;
+                        font-size: 16px;
+                        background-color: beige;
+                    }
+
+
+        .review-description {
+            margin-top: 20px;
+            background-color: beige;
+            padding: 12px 30px 2px;
+            color: #000;
+            text-transform: uppercase;
+        }
+
+            .review-description i {
+                float: right;
+            }
+
+        .additional-info-description {
+            margin-top: 20px;
+            background-color: beige;
+            padding: 12px 30px 2px;
+            color: #000;
+            text-transform: uppercase;
+        }
+
+            .additional-info-description i {
+                float: right;
+             }
+/*start content-bottom*/
+    .content-bottom {
+        overflow: hidden;
+    }
+    .carousel-img {
+        padding-top: 20px;
+    }
+    .content-bottom .title-related-items {
+        margin-bottom: 20px;
+    }
+        .related-items {
+            text-align: center;
+            padding-top: 30px;
+            padding-right: 0;
+            border-top: 1px solid lightgrey;
+        }
+            .related-items h3 {
+                text-transform: uppercase;
+                font-weight: bold;
+                display: inline;
+                padding: 24px;
+            }
+                .related-items .span-left {
+                    background-color: orange;
+                    color: orange;
+                    padding-left: 60px;
+                    padding-top: -45px;
+                    border-bottom: 1px solid orange;
+                    position: absolute;
+                    top: 47%;
+                    left: 34%;
+            }
+
+                .related-items .span-right {
+                    background-color: orange;
+                    color: orange;
+                    padding-left: 60px;
+                    padding-top: -45px;
+                    border-bottom: 1px solid orange;
+                    position: absolute;
+                    top: 47%;
+                    right: 34%;
+                }
+
+            .related-items p {
+                color: grey;
+                font-size: 18px;
+            }
+
+            .carousel-img {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .carousel-img .first-img,.second-img,.third-img,.fourth-img {
+                padding-left: 0;
+            }
+
+            .carousel-img .first-img img,.second-img img,.third-img img {
+                padding-left: 0;
+                }
+
+            .fourth-img img{
+                padding-right: 0;
+            }
+
+        .next-starRating:not(old),.starRating-second:not(old),
+        .starRating-third:not(old),.starRating-fourth:not(old) {
+            display: inline-block;
+            width: 7.5em;
+            height: 1.5em;
+            overflow: hidden;
+            vertical-align: bottom;
+        }
+
+        .next-starRating:not(old) > input,.starRating-second:not(old) > input,
+        .starRating-third:not(old) > input,.starRating-fourth:not(old) > input {
+            margin-right: -100%;
+            opacity: 0;
+        }
+
+        .next-starRating:not(old) > label,.starRating-second:not(old) > label,
+        .starRating-third:not(old) > label,.starRating-fourth:not(old) > label{
+            display: block;
+            float: right;
+            position: relative;
+            background: url(pictures/star-off.svg);
+            background-size: contain;
+        }
+
+        .next-starRating:not(old) > label:before,.starRating-second:not(old) > label:before,
+        .starRating-third:not(old) > label:before,.starRating-fourth:not(old) > label:before {
+            content: '';
+            display: block;
+            width: 1.5em;
+            height: 1.5em;
+            background: url(pictures/star-on.svg);
+            background-size: contain;
+            opacity: 0;
+            transition: opacity 0.2s linear;
+        }
+
+        .next-starRating:not(old) > label:hover:before, .next-starRating:not(old) > label:hover ~ label:before, .next-starRating:not(:hover) > :checked ~ label:before,
+        .starRating-second:not(old) > label:hover:before, .starRating-second:not(old) > label:hover ~ label:before, .starRating-second:not(:hover) > :checked ~ label:before,
+        .starRating-third:not(old) > label:hover:before, .starRating-third:not(old) > label:hover ~ label:before, .starRating-third:not(:hover) > :checked ~ label:before,
+        .starRating-fourth:not(old) > label:hover:before, .starRating-fourth:not(old) > label:hover ~ label:before, .starRating-fourth:not(:hover) > :checked ~ label:before {
+            opacity: 1;
+        }
+
+        .next-starRating,.starRating-second,.starRating-third,.starRating-fourth {
+            margin-left: 75px;
+            margin-top: 10px;
+            font-size: 10px;
+        }
+
+        .same-price {
+            text-align: center;
+            font-size: 20px;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .second-img {
+            position: relative;
+        }
+
+        .second-img .eye {
             background-color: #fff;
-            border: 1px solid lightgrey;
-        }
-        .chose-number:focus {
-            outline: none;
+            border: 1px solid #fff;
+            position: absolute;
+            top: 10%;
+            left: 72%;
         }
 
+        .second-img .fa-eye,.fa-heart  {
+            padding: 9px;
+            font-size: 21px;
+        }
 
+        .second-img .heart {
+            background-color: #fff;
+            border: 1px solid #fff;
+            position: absolute;
+            top: 20%;
+            left: 72%
+        }
+
+          .shopping {
+              background-color: #fff;
+              border: 1px solid #fff;
+              position: absolute;
+              top: 41%;
+              left: 72%;
+        }
+
+            .fa-shopping-cart {
+                font-size: 21px;
+                padding: 9px;
+            }
+
+            .diamond {
+                background-color: #fff;
+                border: 1px solid #fff;
+                position: absolute;
+                top: 31%;
+                left: 72%;
+            }
+
+            .fa-diamond{
+                font-size: 21px;
+                padding: 7px;
+            }
+
+
+
+/*end content-bottom*/
 
 /*end body content*/
 
-
+.footer {
+    background-color: #000;
+}
 /*end container-fluid*/
