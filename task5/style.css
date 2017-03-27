@@ -51,8 +51,8 @@
 
             .shopping-cart i {
                 position: absolute;
-                top: 5px;
-                left:5px;
+                top: -8px;
+                left:-11px;
             }
 
             .shopping-cart span {
@@ -642,13 +642,63 @@
                 padding: 7px;
             }
 
-
-
 /*end content-bottom*/
 
 /*end body content*/
 
+/*start footer*/
 .footer {
-    background-color: #000;
+    background-color: grey;
 }
+    .detail-footer {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+        .detail-footer h3 {
+            text-transform: uppercase;
+            color: #fff;
+            padding-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .detail-footer p {
+            color: lightgrey;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+
+    .about-two {
+        padding: 0;
+    }
+
+        .about-two span {
+            padding-right: 20px;
+            color: lightgrey;
+        }
+
+    .newsletter {
+        border-bottom: 1px solid lightgrey;
+        padding: 0;
+    }
+
+        .your-email {
+            font-style: italic;
+            padding-top: 20px;
+        }
+
+            .your-email i {
+                float: right;
+            }
+
+    .copyright {
+        background-color: #000;
+    }
+        .content-copyright {
+            color: grey;
+            text-align: center;
+            padding: 20px;
+
+        }
+/*end footer*/
+
 /*end container-fluid*/
