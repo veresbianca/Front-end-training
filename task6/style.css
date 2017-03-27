@@ -1,0 +1,362 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("FH-GoodDogPlain WTT/GOODDOGP.TXT");
+}
+
+    .content {
+      width: 100%;
+    }
+        /*start header*/
+        .header {
+            width: 100%;
+        }
+
+        .nav-bar {
+            float: left;
+        }
+            .nav-bar ul {
+                padding-top: 20px;
+                float: left;
+            }
+
+                .nav-bar ul li {
+                    float: left;
+                    list-style-type: none;
+                    margin-right: 30px;
+                    float: left;
+                }
+                   .nav-bar ul li a {
+                        text-decoration: none;
+                        color: #fff;
+                        text-transform: uppercase;
+                        font-style: italic;
+                       font-size: 12px;
+                   }
+
+                   .nav-bar-button {
+                       float: left;
+                       position: absolute;
+                       right: 30px;
+                       top: 30px;
+                   }
+
+                   .nav-bar-button button {
+                       font-style: italic;
+                       color: #000;
+                       border-radius: 30px;
+                       padding: 3px 20px;
+                       border: none;
+                       background-color: #fff;
+                       text-transform: uppercase;
+                   }
+
+                   .nav-bar-button button:focus {
+                       outline: none;
+                   }
+
+                .img-desert {
+                    background-image: url("pictures/desert2-task6.jpg");
+                    background-repeat: no-repeat;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                    padding: 20px  40px;
+                    position: relative;
+                }
+                    .title-img-desert {
+                        text-align: center;
+                    }
+
+                    .title-img-desert h1 {
+                        color: #fff;
+                        font-style: italic;
+                        padding-top: 70px;
+                        width: 400px;
+                        margin:0 auto;
+                        font-family: myFirstFont;
+                        line-height: 2.1;
+                    }
+
+                    .title-img-desert p {
+                        color: #fff;
+                        text-transform: uppercase;
+                        padding-top: 15px;
+                    }
+
+                    .see-trip-details {
+                        float: left;
+                        padding: 40px;
+                    }
+
+                    .see-trip-details  p {
+                        color: #fff;
+                        text-transform: uppercase;
+                        font-size: 16px;
+                    }
+
+                    .see-trip-details .boots-adventure {
+                        font-size: 20px;
+                   }
+                    .see-trip-details button {
+                        float: left;
+                        border-radius: 30px;
+                        background-color: #fff;
+                        color: #000;
+                        font-style: italic;
+                        text-transform: uppercase;
+                        padding: 3px 20px;
+                        border: none;
+                        margin-right: 20px;
+                    }
+
+                        .see-trip-details button:focus{
+                            outline: none;
+                        }
+
+                        .see-trip-details span {
+                            color: #fff;
+                            border-bottom: 1px solid #fff;
+                            font-style: italic;
+                            font-size: 16px;
+                        }
+        /*end header*/
+
+                              /*start body-content*/
+
+    /*start images-first-adventure*/
+
+    .body-content {
+         padding-bottom: 40px;
+    }
+
+    .images-first-adventure {
+        padding-top: 30px;
+    }
+
+        .title-design {
+            margin: 0 auto;
+            text-align: center;
+            padding: 30px;
+        }
+            .title-design h3{
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            .title-design p {
+                text-transform: uppercase;
+                color: mediumvioletred;
+                font-style: italic;
+                font-size: 12px;
+                font-weight: bold;
+            }
+            .title-design button {
+                text-transform: uppercase;
+                border-radius: 30px;
+                background-color: dodgerblue;
+                color: #fff;
+                padding: 10px 40px;
+                border: none;
+                margin-right: 20px;
+                font-size: 10px;
+            }
+                .title-design button:focus {
+                    outline: none;
+                }
+            .img-mountain {
+                background-image: url("pictures/mountain-task6.jpg");
+                background-repeat: no-repeat;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                height: 280px;
+            }
+            .img-animals {
+                background-image: url("pictures/parrot-task6.jpg");
+                background-repeat: no-repeat;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                height: 280px;
+            }
+            .img-cultures {
+                background-image: url("pictures/animal-desert-task6.jpg");
+                background-repeat: no-repeat;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                height: 280px;
+            }
+            .img-voyage {
+                background-image: url("pictures/beach-task6.jpg");
+                background-repeat: no-repeat;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                height: 280px;
+            }
+            .img-locals {
+                background-image: url("pictures/women-child-task6.jpg");
+                background-repeat: no-repeat;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                height: 280px;
+            }
+            .img-camping {
+                background-image: url("pictures/barbecue-task6.jpg");
+                background-repeat: no-repeat;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                height: 280px;
+            }
+            .img-architecture {
+                background-image: url("pictures/arhitecture-task6.jpg");
+                background-repeat: no-repeat;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                height: 280px;
+            }
+            .img-food {
+                background-image: url("pictures/food-task6.jpg");
+                background-repeat: no-repeat;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                height: 280px;
+            }
+            .first-line,.second-line {
+                overflow: hidden;
+                padding: 0;
+            }
+                .first-line p,.second-line p {
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 14px;
+                    margin-top: 127px;
+                    text-align: center;
+                }
+
+
+    /*end images-first-adventure*/
+
+    /*start second-magic*/
+    .title-magic-madagascar {
+        background-image: url("pictures/madagascar_3.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+    }
+    .content-magic-madagascar {
+        margin: 0 auto;
+        text-align: center;
+        padding: 100px 0;
+    }
+        .content-magic-madagascar h1 {
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+        .content-magic-madagascar p {
+            color: #fff;
+            font-size: 16px;
+        }
+        .content-magic-madagascar button {
+            text-transform: uppercase;
+            border-radius: 30px;
+            background-color: #000;
+            color: #fff;
+            padding: 10px 30px;
+            border: none;
+            font-size: 10px;
+            font-style: italic;
+            margin: 20px 0;
+        }
+        .left-button {
+            background-color: transparent;
+            padding: 17px;
+            border: 1px solid #fff;
+            position: absolute;
+            top: 43%;
+            color: #fff;
+        }
+
+            .left-button:focus,.right-button:focus {
+                outline: none;
+            }
+
+            .right-button {
+                background-color: transparent;
+                padding: 17px;
+                border: 1px solid #fff;
+                position: absolute;
+                top: 43%;
+                right: 0%;
+                color: #fff;
+            }
+    /*end second-magic*/
+
+     /*start third inspiration*/
+    .img-third-inspiration {
+        overflow: hidden;
+    }
+        .img-third-inspiration img {
+            height: 175px;
+        }
+        .first-line-inspiration,.second-line-inspiration,.third-line-inspiration,.fourth-line-inspiration,.last-line-inspiration {
+        float: left;
+        padding-top: 20px;
+    }
+        .design-elements .first-adventure-gear {
+            color: mediumvioletred;
+            text-transform: uppercase;
+            font-style: italic;
+        }
+
+        .design-elements h3 {
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .design-elements .last-adventure-gear {
+            color: grey;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+        .design-elements span {
+            border-right: 1px solid grey;
+            padding-left: 6px;
+        }
+
+    /*end third inspiration*/
+                        /*end body-content*/
+
+/*start footer */
+    .footer {
+        background-color: #000;
+    }
+    .navigation,.contact,.get-updates {
+        float: left;
+    }
+        .navigation ul li {
+            padding-right: 10px;
+        }
+            .navigation li a,.contact li a,.get-updates {
+                color: #fff;
+            }
+/*emd footer*/
