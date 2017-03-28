@@ -12,11 +12,11 @@
         }
 
         .nav-bar {
-            float: left;
+            text-align: center;
         }
             .nav-bar ul {
-                padding-top: 20px;
-                float: left;
+                display: inline-block;
+                padding: 0;
             }
 
                 .nav-bar ul li {
@@ -37,7 +37,7 @@
                        float: left;
                        position: absolute;
                        right: 30px;
-                       top: 30px;
+                       top: 20px;
                    }
 
                    .nav-bar-button button {
@@ -315,9 +315,28 @@
     .img-third-inspiration {
         overflow: hidden;
     }
-        .img-third-inspiration img {
+        @media all and  (min-width: 450px) and (max-width: 767px) {
+                .design-elemens,img {
+                    width: 350px;
+                    height: 400px;
+                    text-align: center;
+                    }
+                .design-elements p {
+                    width: 350px;
+                    text-align: center;
+                    padding: 5px;
+                }
+                .design-elements h3 {
+                    width: 350px;
+                    text-align: center;
+                    padding: 5px;
+                }
+            }
+
+        .img-third-inspiration img{
             height: 175px;
         }
+
         .first-line-inspiration,.second-line-inspiration,.third-line-inspiration,.fourth-line-inspiration,.last-line-inspiration {
         float: left;
         padding-top: 20px;
@@ -328,20 +347,21 @@
             font-style: italic;
         }
 
-        .design-elements h3 {
-            text-transform: uppercase;
-            font-size: 16px;
-            font-weight: bold;
-        }
+            .design-elements h3 {
+                text-transform: uppercase;
+                font-size: 16px;
+                font-weight: bold;
+            }
         .design-elements .last-adventure-gear {
             color: grey;
             text-transform: uppercase;
             font-size: 12px;
         }
-        .design-elements span {
-            border-right: 1px solid grey;
-            padding-left: 6px;
-        }
+            .border {
+                border-right: 1px solid grey;
+                margin-right: 10px;
+                margin-left: 10px;
+            }
 
     /*end third inspiration*/
                         /*end body-content*/
@@ -350,13 +370,92 @@
     .footer {
         background-color: #000;
     }
-    .navigation,.contact,.get-updates {
-        float: left;
-    }
-        .navigation ul li {
-            padding-right: 10px;
+        .footer-nav {
+            padding: 30px 0;
         }
-            .navigation li a,.contact li a,.get-updates {
-                color: #fff;
+            .navigation,.contact,.get-updates {
+                float: left;
             }
-/*emd footer*/
+                .navigation ul li,.contact ul li  {
+                    padding-right: 10px;
+                    list-style-type:none;
+                    line-height: 1.9;
+                }
+
+                    .navigation li a,.contact li a {
+                        color: #fff;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                    }
+
+                    .get-updates {
+                        color: #fff;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                        }
+
+                    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                        color: red;
+                        font-style: italic;
+                    }
+
+                        .get-updates input {
+                            background-color: #000;
+                            border: none;
+                            border-bottom: 1px solid grey;
+                        }
+
+                            .get-updates input:focus {
+                                outline: none;
+                            }
+
+
+                        .get-updates button {
+                            color: #fff;
+                            margin-top: 10px;
+                            font-size: 12px;
+                            padding: 3px 16px;
+                            border-radius: 25px;
+                            border: none;
+                            background-color: grey;
+                            text-transform: uppercase;
+                        }
+
+                            .get-updates button:focus {
+                                outline: none;
+                            }
+
+            .terms-of-services {
+                background-color: grey;
+            }
+
+                .terms-of-services p {
+                    display: inline-block;
+                    text-transform: uppercase;
+                    color: #fff;
+                    font-size: 12px;
+                }
+
+                .privacy-policy {
+                    padding: 10px 50px;
+                }
+
+                    .first-privacy {
+                        float: left;
+                    }
+                        .first-privacy2 {
+                            margin-right: 10px;
+                            padding-right: 10px;
+                            border-right: 1px solid #fff;
+                        }
+
+                        .second-privacy {
+                            margin-right: 60px;
+                        }
+
+                        .last-copyright {
+                            float: right;
+                        }
+
+
+/*end footer*/
