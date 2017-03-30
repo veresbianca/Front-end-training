@@ -153,7 +153,17 @@
             .title-bottom .third-model {
                 color: #000;
                 font-weight: bold;
+                position: relative;
             }
+
+             .title-bottom .diagonal-line {
+                 position: absolute;
+                 border-top: 1px solid grey;
+                 width: 35px;
+                 transform: rotate(45deg);
+                 left: -47%;
+                 bottom: 36%;
+             }
 
     .frame {
         width: 300px;
@@ -164,6 +174,7 @@
         top: 20%;
         left: 35%;
     }
+
     /*start body-content*/
     .product-description {
         padding: 40px 0;
@@ -239,7 +250,6 @@
         }
             .big-image img {
                 width: 100%;
-
             }
 
         .small-img {
@@ -310,8 +320,192 @@
                     font-size: 20px;
                 }
 
+    .models {
+        background-color: #000;
+        padding: 30px 0;
+        margin-top: 30px;
 
-    /*end body-content*/
+    }
+        .rbw-models {
+            text-transform: uppercase;
+            color: #fff;
+            float: left;
+            text-align: center;
 
+        }
+
+        .rbw-models .border{
+            border-bottom: 1px solid grey;
+            width: 60px;
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        .lighting-img {
+            float: right;
+            padding-right: 0;
+        }
+        .lighting-img img {
+            float: right;
+            height: 200px;
+            width: 160px;
+        }
+
+        .lighting-img .gala-cross {
+            float: right;
+            position: relative;
+        }
+
+        .gala-cross-right {
+            margin-right: 20px;
+        }
+
+        .lighting-img .counter-img {
+            position: absolute;
+            bottom: 4%;
+            left: 2%;
+            background-color: orange;
+            padding: 6px;
+        }
+         .lighting-img .counter-text {
+             position: absolute;
+             bottom: 3%;
+             left: 40%;
+             color: #fff;
+             border-top: 1px solid #fff;
+             border-right: 1px solid #fff;
+             border-bottom: 1px solid #fff;
+             padding: 6px 6px;
+         }
+
+        .lighting-img img:nth-child(2),.lighting-img img:nth-child(3){
+            margin-right: 10px;
+        }
+
+        .fa-chevron-circle-left {
+            float:left;
+            position:relative;
+            top: 6px;
+            padding-right: 10px;
+            color: grey
+        }
+         .fa-chevron-circle-right{
+             float:right;
+             position:relative;
+             top: 6px;
+             padding-left: 10px;
+             color: grey;
+         }
+    .rbw-models-p {
+         width: 250px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .rbw-models-p span {
+        color: grey;
+    }
+
+    .user-reviews {
+        padding-top: 40px;
+    }
+
+    .user-reviews h4 {
+        text-transform: uppercase;
+        color: grey;
+        text-align: center;
+    }
+
+    .first-user,.second-user,.third-user {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .first-user,.second-user {
+        border-right: 1px solid lightgrey;
+    }
+
+            .user-reviews img {
+                border-radius: 50%;
+                width: 50px;
+                text-align: center;
+            }
+            .user-reviews p {
+                width: 161px;
+                margin: 0 auto;
+                margin-top: 20px;
+                color: grey;
+            }
+
+        .user-reviews .name-user {
+            color: grey;
+            padding-top: 20px;
+            display: inline-block;
+        }
+
+        .all-reviews {
+            margin:0 auto;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+            .all-reviews button {
+                border: none;
+                width: 385px;
+                padding: 20px 0;
+                text-transform: uppercase;
+            }
+
+        .border-under-img {
+            border-bottom: 1px solid lightgrey;
+            width: 30px;
+            color: grey;
+            display: block;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+
+        .footer {
+            background-color: lightgrey;
+            margin-top: 50px;
+            padding: 50px;
+        }
+
+            .img-footer {
+                width: 60px;
+                margin: 0 auto;
+            }
+
+                .img-footer span {
+                    border: 1px solid #000;
+                    padding: 10px 12px;
+                    text-transform: uppercase;
+                    color: #000;
+                    font-weight: bold;
+                }
+
+                .contacts {
+                    text-align: center;
+                    margin-top: 30px;
+                }
+
+                    .contacts ul {
+                        margin-top: 20px;
+                        display: inline-block;
+                    }
+
+                        .contacts ul li {
+                            float: left;
+                            list-style-type: none;
+                            margin-right: 50px;
+                        }
+
+                            .contacts ul li a{
+                                color: #000;
+                                text-transform: uppercase;
+                                text-decoration: none;
+                                font-weight: bold;
+                            }
+        /*end body-content*/
 
     /*end header*/
