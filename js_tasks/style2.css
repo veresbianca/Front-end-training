@@ -1,0 +1,7 @@
+body{background:#666666;padding:40px}
+
+.product{display:inline-block;margin:12px;background:#eee}
+
+.product input{width: 50px;}
+
+.product {word-wrap:break-word;}
