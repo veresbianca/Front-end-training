@@ -2,22 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>index1</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index1.js"></script>
 </head>
 <body>
     <!-- Display Message in Result after submit the form -->
     <form>
         <span id="result"><a>Result</a></span>
 
-        <span>
+        <span class="message">
             <label>Message: </label>
             <input type="text" name="html" placeholder="Howdy..." />
         </span>
 
         <span>
             <label><img id="loadingimg" src="http://dev.cloudcell.co.uk/bin/loading.gif"/>   </label>
-            <input type="submit" value="Submit" />
+            <button  class="btn-submit" disabled >Submit</button>
         </span>
     </form>
 </body>

@@ -31,3 +31,8 @@ span#result{
 img#loadingimg{
     display: none;
 }
+
+.productTotal {
+    font-weight: bold;
+    color: orange;
+}

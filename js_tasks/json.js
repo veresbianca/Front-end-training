@@ -1,7 +1,8 @@
 /**
  * Created by biancaveres on 30/03/2017.
  */
-var data={"users":[
+
+ var data={"users":[
     {
         "firstName":"Ray",
         "lastName":"Villalobos",
