@@ -4,10 +4,7 @@
     $(document).ready(function(){
     console.log("is working");
 
-
         function getTotal() {
-
-
 
         $(".product").each(function(){
 

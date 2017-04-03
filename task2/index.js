@@ -12,7 +12,7 @@ $(document).ready(function(){
 
         console.log("entering");
         //checked if all inputs have some written in them
-        if(firstName.length > 0 && lastName.length > 0 && userEmail.length > 0 && payment.length > 0){
+        if(firstName.length && lastName.length && userEmail.length && payment.length){
             $(".check").prop('disabled',false);
             $(".pay-now button").removeClass("inactive");
         } else {
